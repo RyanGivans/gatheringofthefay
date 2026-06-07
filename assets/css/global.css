@@ -1,1 +1,15 @@
-/* global.css */
+:root{
+  --ink:#2f2116;
+  --ink-soft:#5a4630;
+  --gold:#a7792f;
+  --gold-deep:#6e4c1f;
+  --forest:#06100c;
+  --forest-soft:#0d1a14;
+  --parchment:#d6ba7b;
+  --parchment-deep:#b98d4d;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#07100d;color:var(--ink);font-family:"IM Fell English",Georgia,serif}
+a{text-decoration:none;color:inherit}
+body{overflow-x:hidden}
+button,a{transition:.25s ease}
