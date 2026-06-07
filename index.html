@@ -1,1 +1,102 @@
-<!-- Homepage scaffold -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gathering of the Fay — an enchanted Renaissance faire experience in Northwest Arkansas." />
+  <title>Gathering of the Fay | Northwest Arkansas Renaissance Faire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=IM+Fell+English:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+<body>
+  <main class="scroll-page">
+    <div class="forest-stage" aria-hidden="true"></div>
+    <div class="forest-vignette" aria-hidden="true"></div>
+    <div class="lantern lantern--left" aria-hidden="true"></div>
+    <div class="lantern lantern--right" aria-hidden="true"></div>
+
+    <section class="scroll-shell" aria-label="Gathering of the Fay homepage scroll">
+      <div class="rod rod--top" aria-hidden="true"><span></span></div>
+
+      <div class="scroll-window">
+        <div class="scroll-track" id="scrollTrack">
+          <article class="scroll-panel scroll-panel--welcome">
+            <div class="crest">✦ Gathering of the Fay ✦</div>
+            <div class="ornament-line"><span></span><i>❧</i><span></span></div>
+            <p class="eyebrow">Northwest Arkansas Renaissance Faire</p>
+            <h1>Welcome, Traveler</h1>
+            <p class="intro-copy">Once each year, the roads bend toward a gathering where music, laughter, handcrafted wares, and old-world revelry fill the air.</p>
+            <a class="scroll-button" href="pages/plan-your-visit/">Plan Your Visit</a>
+            <p class="scroll-hint">Scroll to unroll the parchment</p>
+          </article>
+
+          <article class="scroll-panel scroll-panel--explore">
+            <div class="ornament-line"><span></span><i>✦</i><span></span></div>
+            <p class="eyebrow">Explore the Realm</p>
+            <h2>Choose Your Path</h2>
+            <div class="realm-links">
+              <a href="pages/plan-your-visit/" class="realm-link">
+                <strong>Plan Your Visit</strong>
+                <small>Dates, location, tickets, parking, and helpful details.</small>
+              </a>
+              <a href="pages/entertainment/" class="realm-link">
+                <strong>Entertainment</strong>
+                <small>Music, performers, demonstrations, and merriment.</small>
+              </a>
+              <a href="pages/marketplace/" class="realm-link">
+                <strong>Marketplace</strong>
+                <small>Artisans, merchants, food, and handcrafted treasures.</small>
+              </a>
+              <a href="pages/vendors/" class="realm-link">
+                <strong>Vendors</strong>
+                <small>Meet the makers or apply to join the gathering.</small>
+              </a>
+              <a href="pages/contact/" class="realm-link">
+                <strong>Contact & Tickets</strong>
+                <small>Questions, ticket information, and event updates.</small>
+              </a>
+            </div>
+          </article>
+
+          <article class="scroll-panel scroll-panel--story">
+            <div class="ornament-line"><span></span><i>❦</i><span></span></div>
+            <p class="eyebrow">Come Wander Awhile</p>
+            <h2>A Faire of Music, Craft, and Merriment</h2>
+            <p class="intro-copy">Gathering of the Fay is a place to dress boldly, shop local artisans, meet remarkable characters, and spend a day inside the kind of story you usually only read about.</p>
+            <div class="story-row">
+              <div><b>Live</b><small>Performances and roaming entertainers</small></div>
+              <div><b>Shop</b><small>Artisan goods and curious treasures</small></div>
+              <div><b>Feast</b><small>Food, drink, and festive gathering</small></div>
+            </div>
+            <a class="scroll-button" href="pages/entertainment/">See What Awaits</a>
+          </article>
+
+          <article class="scroll-panel scroll-panel--end">
+            <div class="ornament-line"><span></span><i>✧</i><span></span></div>
+            <p class="eyebrow">Gather Your Party</p>
+            <h2>The Road to the Fay Awaits</h2>
+            <p class="intro-copy">Follow the gathering for announcements, tickets, vendor spotlights, and details for your next adventure in Northwest Arkansas.</p>
+            <div class="end-actions">
+              <a class="scroll-button" href="pages/contact/">Get Tickets</a>
+              <a class="scroll-button scroll-button--dark" href="https://www.facebook.com/profile.php?id=61566433637694">Follow on Facebook</a>
+            </div>
+            <p class="small-note">Gathering of the Fay · Northwest Arkansas</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="rod rod--bottom" aria-hidden="true"><span></span></div>
+    </section>
+
+    <aside class="scroll-progress" aria-label="Scroll progress">
+      <span class="scroll-progress__label">Unroll the scroll</span>
+      <div class="scroll-progress__track"><span id="progressFill"></span></div>
+      <span class="scroll-progress__percent" id="progressPercent">0%</span>
+    </aside>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
